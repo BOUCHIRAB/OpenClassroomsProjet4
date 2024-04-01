@@ -82,9 +82,15 @@
   
 
   body {
+	width: 100%;
 	max-width: 1920px;
-	margin: auto;
+	margin: 0;
 }
+main {
+	width: 100%;
+	max-width: 1920px;
+}
+
 * {
 	font-family: 'Inter';
 	font-style: normal;
@@ -162,13 +168,13 @@
 }
 
 .pleft {
-width: 364;
-height: 363;
+width: 364px;
+height: 363px;
 }
 
 .pright{
-	width: 419;
-height: 418;
+	width: 419px;
+height: 418px;
 }
 
 #about-me {
@@ -207,9 +213,7 @@ h4, h5{
 	justify-content: center;
 }
 
-main {
-	width: 100%;
-}
+
 
 /*
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link{
@@ -254,8 +258,14 @@ h1 > span {
 }
 
 .d-block w-100 {
-width: 928 ;
-height: 429;
+width: 928px ;
+height: 429px;
+max-width: 1920px;
+}
+
+.social-link img{
+	width: 20px;
+	height: 20px;
 }
 .mg-prev, .mg-next {
 	width: 30px;
