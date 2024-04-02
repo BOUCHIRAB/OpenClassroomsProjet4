@@ -161,15 +161,10 @@ main {
 	z-index: 0;
 }
 
-/********************************************/
-.picture img {
-	width: 419px;
-	Height: 100%;
-}
 
 .pleft {
-width: 364px;
-height: 363px;
+width: 419px;
+height: 418px;
 }
 
 .pright{
@@ -263,10 +258,7 @@ height: 429px;
 max-width: 1920px;
 }
 
-.social-link img{
-	width: 20px;
-	height: 20px;
-}
+
 .mg-prev, .mg-next {
 	width: 30px;
 	height: 30px;
@@ -401,6 +393,7 @@ input[type="submit"] {
 	#about-me h3, #about-me p {
 		width: 100%;
 	}
+	
 }
 
 @media all and (max-width: 1000px) {
@@ -411,6 +404,10 @@ input[type="submit"] {
 	.picture {
 		width: 50%;
 	}
+	.pleft {
+		width: 182px;
+		height: 182px;
+		}
 	.picture.left::before {
 		width: 100%;
 		height: 30%;
@@ -495,5 +492,9 @@ input[type="submit"] {
 	.picture {
 		width: 80%;
 	}
+	.pleft {
+		width: 249px;
+		height: 248px;
+		}
 }
 
