@@ -123,11 +123,6 @@ main {
     color: #000
 }
 
-.social-link img {
-    width: 20px;
-    height: 20px;
-}
-
 .carousel-item img {
     max-width: 1920Px;
     height: 100%;
@@ -158,15 +153,6 @@ main {
     z-index: 0;
 }
 
-.pleft {
-    width: 560px;
-    height: 558px;
-}
-
-.pright {
-    width: 419px;
-    height: 418px;
-}
 
 #about-me {
     flex: 2
@@ -242,14 +228,6 @@ h1>span {
     height: 100%;
     object-fit: cover;
     padding: .5em;
-    height: 440px;
-    width: 440px;
-}
-
-.d-block w-100 {
-    width: 928px;
-    height: 429px;
-    max-width: 1920px;
 }
 
 .mg-prev, .mg-next {    width: 30px;
@@ -411,10 +389,6 @@ footer {
         width: 50%;
     }
 
-    .pleft {
-        width: 182px;
-        height: 182px;
-    }
 
     .picture.left::before {
         width: 100%;
@@ -515,8 +489,4 @@ footer {
         width: 80%;
     }
 
-    .pleft {
-        width: 249px;
-        height: 248px;
-    }
 }
