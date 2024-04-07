@@ -489,4 +489,17 @@ footer {
         width: 80%;
     }
 
+	.pleft, .pright{
+		width:70%;
+		height:70%;
+	}
+
+	
+	.quote__text {
+   	 font-size: 20px;
+	}
+
+	.quote__author {
+  	  font-size: 12px;
+	}
 }
