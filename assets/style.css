@@ -153,6 +153,10 @@ main {
     z-index: 0;
 }
 
+.pleft, .pright{
+    max-width:95%;
+    height:auto;
+}
 
 #about-me {
     flex: 2
@@ -251,7 +255,8 @@ h1>span {
     font-family: 'Spectral';
     font-style: italic;
     font-weight: 300;
-    font-size: 40px;
+    font-size: 39px;
+    line-height: 45px;
 }
 
 .quote__author {
@@ -259,7 +264,6 @@ h1>span {
     font-weight: 800;
     font-size: 22px;
 }
-
 #services {
     margin: auto;
     background-color: #A8D5D8;
@@ -360,12 +364,13 @@ footer {
     padding: 10px;
 }
 
-
 @media all and (max-width: 1180px) {
     .picture {
         flex: 2;
+        margin: 0 0px;
     }
-
+   
+    
     #about, #contact .container {
         align-items: center;
     }
@@ -378,6 +383,10 @@ footer {
     #about-me h3,    #about-me p {
         width: 100%;
     }
+    .pleft, .pright{
+		width:95%;
+		height:95%;
+	}
 }
 
 @media all and (max-width: 1000px) {
@@ -445,6 +454,10 @@ footer {
         right: 0;
         z-index: -1;
     }
+    .pleft, .pright{
+		width:95%;
+		height:95%;
+	}
 }
 
 @media all and (max-width: 650px) {
